@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+ruby '3.2.2'
+gem 'sinatra'
+gem 'bundler'
+gem 'rackup'
+gem 'rerun'
+gem 'pry'
+
+gem "csv", "~> 3.2"

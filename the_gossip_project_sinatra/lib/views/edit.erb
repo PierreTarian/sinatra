@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Editer un potin</title>
+  </head>
+  <body>
+  <div>
+  <div>
+    <h1>Editer un potin n°<%= params["id"].to_i+1 %></h1>
+    <form action='/gossips/<%= params["id"] %>/edit' method='POST'>
+      Mets à jour le potin : <input type='text' name='gossip_content'/><br/>
+      <br/>
+      <input type='submit' value="Envoyer">
+    </form>
+  </div>
+  </div>
+  </body>
+</html>
